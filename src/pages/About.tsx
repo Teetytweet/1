@@ -23,7 +23,9 @@ const About: React.FC = () => {
             </p>
             
             <p className="text-base-content/80 leading-relaxed">
-              I started this web project to spread awareness about the importance of the <strong>"Adopt, Don't Shop"</strong> movement. Fostering kittens has been one of the most incredible experiences of my life. It provides crucial socialization for rescues and bridges the gap between shelter and a forever home. By fostering and adopting, we literally save lives.
+              I started this web project to spread awareness about the importance of the <strong>"Adopt, Don't Shop"</strong> movement. 
+              As a full-time teenager, I understand how hard it is wanting to help but not being allowed to foster kittens yourself!
+              But that hasn't stopped me from getting involved. Instead of fostering, I dedicate my free time to donating to local shelters, advocating on social media, and building resources like this site to help educate others who <em>can</em> foster!
             </p>
 
             <div className="divider my-6"></div>

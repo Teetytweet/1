@@ -13,12 +13,13 @@ const Navbar: React.FC = () => {
     <div className="navbar bg-base-100 shadow-md sticky top-0 z-50">
       <div className="flex-1 px-4">
         <Link to="/" className="text-2xl font-black text-primary hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer flex items-center gap-2">
-          <span className="text-3xl">🐾</span> Amelia's Kitties
+          <span className="text-3xl">🐾</span> Fostering Felines
         </Link>
       </div>
       <div className="flex-none px-4 space-x-2">
         <Link to="/" className={getLinkClass('/')}>Home</Link>
         <Link to="/gallery" className={getLinkClass('/gallery')}>Gallery</Link>
+        <Link to="/resources" className={getLinkClass('/resources')}>Resources</Link>
         <Link to="/about" className={getLinkClass('/about')}>About</Link>
       </div>
     </div>

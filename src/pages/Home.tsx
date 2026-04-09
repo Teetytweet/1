@@ -18,8 +18,8 @@ const Home: React.FC = () => {
               Adopt, Don't Shop.
             </h1>
             <p className="mb-8 text-xl text-base-content/80 font-medium">
-              Hi, I'm Amelia! I'm on a mission to show the world how incredibly rewarding it is to foster kittens and adopt rescue cats. 
-              Together, we can save lives and find fur-ever homes for our feline friends.
+              Hi, I'm Amelia! Promoting the "Adopt, Don't Shop" movement is my biggest passion. 
+              Fostering is so important because it provides a safe, nurturing environment for kittens to properly socialize. It also frees up vital space in shelters for other animals and acts as the crucial bridge for vulnerable animals to find their fur-ever homes.
             </p>
             <div className="flex gap-4 justify-center">
               <Link to="/gallery" className="btn btn-primary btn-lg shadow-lg hover:shadow-primary/50 transition-all group overflow-hidden relative">
@@ -51,6 +51,36 @@ const Home: React.FC = () => {
               </div>
             </div>
           ))}
+        </div>
+      </div>
+
+      {/* Benefits Section */}
+      <div className="mt-24 mb-10 bg-base-200 rounded-3xl p-10 md:p-16 shadow-inner">
+        <h2 className="text-4xl font-bold text-center mb-6 text-primary">Benefits of Fostering</h2>
+        <p className="text-center text-xl mb-12 text-base-content/70 max-w-2xl mx-auto">Not ready for a 15-year commitment? That's exactly why fostering is perfect for you!</p>
+        
+        <div className="flex flex-col md:flex-row gap-10 items-center">
+           <div className="flex-1 space-y-6">
+             <div className="flex gap-4">
+               <div className="text-4xl bg-white p-3 rounded-xl shadow-sm text-center h-min">⏳</div>
+               <div>
+                 <h3 className="text-2xl font-bold text-base-content">It's Temporary</h3>
+                 <p className="text-base-content/80">Fostering usually only lasts 2 to 8 weeks! You get all the joy of having an adorable kitten without a lifelong commitment. You get to love them, let them go to an amazing family, and quickly move on to save your next litter!</p>
+               </div>
+             </div>
+             
+             <div className="flex gap-4">
+               <div className="text-4xl bg-white p-3 rounded-xl shadow-sm text-center h-min">💰</div>
+               <div>
+                 <h3 className="text-2xl font-bold text-base-content">It's Absolutely Free</h3>
+                 <p className="text-base-content/80">You don't need to pay for anything! Rescues and animal shelters provide all the necessary supplies—including KMR (kitten milk replacer), food, litter, toys, and 100% of the required veterinary care. Your only job is to provide pure love, space, and time.</p>
+               </div>
+             </div>
+           </div>
+
+           <div className="flex-1">
+             <img src="https://loremflickr.com/800/600/kittens?lock=101" alt="Two foster kittens playing" className="rounded-2xl shadow-xl w-full object-cover h-80 transform hover:-rotate-2 transition-transform duration-500" />
+           </div>
         </div>
       </div>
     </div>

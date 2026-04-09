@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Gallery from './pages/Gallery'
 import About from './pages/About'
+import Resources from './pages/Resources'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/resources" element={<Resources />} />
             <Route path="/about" element={<About />} />
           </Routes>
         </main>

@@ -2,21 +2,21 @@ import React, { useState } from 'react';
 
 const Gallery: React.FC = () => {
   const [images, setImages] = useState([
-    { id: 1, url: 'https://loremflickr.com/800/800/cat?lock=1', title: 'Sleepy Rescue' },
-    { id: 2, url: 'https://loremflickr.com/800/800/kitten?lock=2', title: 'Fostered -> Adopted' },
-    { id: 3, url: 'https://loremflickr.com/800/800/cat?lock=3', title: 'Healing Journey' },
-    { id: 4, url: 'https://loremflickr.com/800/800/kitten?lock=4', title: 'Found Forever Home' },
-    { id: 5, url: 'https://loremflickr.com/800/800/cat?lock=5', title: 'Shelter Survivor' },
-    { id: 6, url: 'https://loremflickr.com/800/800/kitten?lock=6', title: 'Thriving Now' },
+    { id: 1, url: 'https://loremflickr.com/800/800/cat?lock=21', title: 'Tiny Neonate Orphan' },
+    { id: 2, url: 'https://loremflickr.com/800/800/kitten?lock=22', title: 'Thriving in Forever Home' },
+    { id: 3, url: 'https://loremflickr.com/800/800/cat?lock=23', title: 'Mom and Scared Litter' },
+    { id: 4, url: 'https://loremflickr.com/800/800/kitten?lock=24', title: 'Litter Fully Adopted!' },
+    { id: 5, url: 'https://loremflickr.com/800/800/cat?lock=25', title: 'Spicy Bonded Kitten Pair' },
+    { id: 6, url: 'https://loremflickr.com/800/800/kitten?lock=26', title: 'Bonded Pair Cuddling as Adults' },
   ]);
 
   const [hasMore, setHasMore] = useState(true);
 
   const handleLoadMore = () => {
     const moreImages = [
-      { id: 7, url: 'https://loremflickr.com/800/800/cat?lock=7', title: 'Loving Companion' },
-      { id: 8, url: 'https://loremflickr.com/800/800/cat?lock=8', title: 'Playful Rascal' },
-      { id: 9, url: 'https://loremflickr.com/800/800/kitten?lock=9', title: 'Sweet Angel' },
+      { id: 7, url: 'https://loremflickr.com/800/800/cat?lock=27', title: 'Bottle Baby Feeding' },
+      { id: 8, url: 'https://loremflickr.com/800/800/cat?lock=28', title: 'Pill Time to Healthy' },
+      { id: 9, url: 'https://loremflickr.com/800/800/kitten?lock=29', title: 'Foster Fail! (Adopted by Foster)' },
     ];
     setImages(prev => [...prev, ...moreImages]);
     setHasMore(false);
