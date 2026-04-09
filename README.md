@@ -1,6 +1,6 @@
 # Amelia's Cats & Kitties Website
 
-Welcome to my personal static website celebrating the most purr-fect creatures on earth! 🐾
+Welcome to my personal static website celebrating the "Adopt, Don't Shop" movement and the incredible journey of fostering kittens! 🐾
 
 ## Overview
 This is a beautiful, responsive, Single Page Application (SPA) built using React, Vite, Tailwind CSS, and daisyUI (using the awesome `cupcake` theme). 
