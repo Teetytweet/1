@@ -31,15 +31,13 @@ const Resources: React.FC = () => {
               </div>
             </a>
 
-           <a href="https://www.kittenlady.org/webinar" target="_blank" rel="noreferrer" className="card bg-base-200 hover:shadow-lg transition-shadow group">
+            <a href="https://www.kittenlady.org/webinar" target="_blank" rel="noreferrer" className="card bg-base-200 hover:shadow-lg transition-shadow group">
               <div className="card-body items-center text-center p-6">
                 <span className="text-4xl mb-2 group-hover:scale-110 transition-transform">▶️</span>
                 <h3 className="font-bold text-lg mb-1">Webinars</h3>
                 <p className="text-sm">A series of webinars with detailed care for each kitten age group and more.</p>
               </div>
             </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
