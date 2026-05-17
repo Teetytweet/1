@@ -2,21 +2,21 @@ import React, { useState } from 'react';
 
 const Gallery: React.FC = () => {
   const [images, setImages] = useState([
-    { id: 1, url: 'https://loremflickr.com/800/800/cat?lock=21', title: 'Tiny Neonate Orphan' },
-    { id: 2, url: 'https://loremflickr.com/800/800/kitten?lock=22', title: 'Thriving in Forever Home' },
-    { id: 3, url: 'https://loremflickr.com/800/800/cat?lock=23', title: 'Mom and Scared Litter' },
-    { id: 4, url: 'https://loremflickr.com/800/800/kitten?lock=24', title: 'Litter Fully Adopted!' },
-    { id: 5, url: 'https://loremflickr.com/800/800/cat?lock=25', title: 'Spicy Bonded Kitten Pair' },
-    { id: 6, url: 'https://loremflickr.com/800/800/kitten?lock=26', title: 'Bonded Pair Cuddling as Adults' },
+    { id: 1, url: '/images/neonate.jpg', title: 'Tiny Neonate Orphan' },
+    { id: 2, url: '/images/cat.jpg', title: 'Thriving in Forever Home' },
+    { id: 3, url: '/images/litter.jpg', title: 'Mom and Litter' },
+    { id: 4, url: '/images/calico.jpg', title: 'Calico Litter Fully Adopted!' },
+    { id: 5, url: '/images/bonded-pair.jpg', title: 'Bonded Kitten Pair' },
+    { id: 6, url: '/images/bottle-kit.jpg', title: 'Bottle Baby' },
   ]);
 
   const [hasMore, setHasMore] = useState(true);
 
   const handleLoadMore = () => {
     const moreImages = [
-      { id: 7, url: 'https://loremflickr.com/800/800/cat?lock=27', title: 'Bottle Baby Feeding' },
-      { id: 8, url: 'https://loremflickr.com/800/800/cat?lock=28', title: 'Pill Time to Healthy' },
-      { id: 9, url: 'https://loremflickr.com/800/800/kitten?lock=29', title: 'Foster Fail! (Adopted by Foster)' },
+      { id: 7, url: '/images/bottle-baby.jpg', title: 'Bottle Baby Feeding' },
+      { id: 8, url: '/images/kitten.jpg', title: 'Healthy and Ready for Adoption!' },
+      { id: 9, url: '/images/foster-fail.jpg', title: 'Foster Fail! (Adopted by Foster)' },
     ];
     setImages(prev => [...prev, ...moreImages]);
     setHasMore(false);
