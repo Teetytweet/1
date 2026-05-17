@@ -15,7 +15,7 @@ const Resources: React.FC = () => {
           <p className="text-base-content/70 mb-6">Hannah Shaw (The Kitten Lady) is the absolute gold standard for kitten fostering education. Her resources are literally the "Bible of Fostering".</p>
           
           <div className="grid md:grid-cols-3 gap-6">
-            <a href="https://www.kittenlady.org/tiny" target="_blank" rel="noreferrer" className="card bg-base-200 hover:shadow-lg transition-shadow group">
+            <a href="https://www.kittenlady.org/tiny-but-mighty" target="_blank" rel="noreferrer" className="card bg-base-200 hover:shadow-lg transition-shadow group">
               <div className="card-body items-center text-center p-6">
                 <span className="text-4xl mb-2 group-hover:scale-110 transition-transform">📘</span>
                 <h3 className="font-bold text-lg mb-1">Tiny But Mighty</h3>
@@ -23,19 +23,20 @@ const Resources: React.FC = () => {
               </div>
             </a>
             
-            <a href="https://www.amazon.com/shop/kittenxlady" target="_blank" rel="noreferrer" className="card bg-base-200 hover:shadow-lg transition-shadow group">
+            <a href="https://www.kittenlady.org/supplies" target="_blank" rel="noreferrer" className="card bg-base-200 hover:shadow-lg transition-shadow group">
               <div className="card-body items-center text-center p-6">
                 <span className="text-4xl mb-2 group-hover:scale-110 transition-transform">🛒</span>
-                <h3 className="font-bold text-lg mb-1">Amazon Storefront</h3>
+                <h3 className="font-bold text-lg mb-1">Amazon Supplies</h3>
                 <p className="text-sm">A curated list of essential supplies, formulas, and incubators you should buy.</p>
               </div>
             </a>
 
+             <a href="https://www.kittenlady.org/webinar" target="_blank" rel="noreferrer" className="card bg-base-200 hover:shadow-lg transition-shadow group">
             <div className="card bg-base-200 hover:shadow-lg transition-shadow group cursor-pointer">
               <div className="card-body items-center text-center p-6">
-                <span className="text-4xl mb-2 group-hover:scale-110 transition-transform">🧸</span>
-                <h3 className="font-bold text-lg mb-1">Children's Books</h3>
-                <p className="text-sm">Inspire the next generation with books like "Kitten Lady's Big Book of Little Kittens".</p>
+                <span className="text-4xl mb-2 group-hover:scale-110 transition-transform">▶️</span>
+                <h3 className="font-bold text-lg mb-1">Webinars</h3>
+                <p className="text-sm">A series of webinars with detailed care for each kitten age group and more.".</p>
               </div>
             </div>
           </div>
