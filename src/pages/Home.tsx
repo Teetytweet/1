@@ -25,16 +25,21 @@ const Home: React.FC = () => {
                 <span className="relative z-10">Foster Stories</span>
                 <div className="absolute inset-0 h-full w-full bg-white/20 scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-300"></div>
               </Link>
-              <Link to="/about" className="btn btn-outline btn-primary btn-lg hover:bg-primary/10 transition-all">
+              
+              {/* Changed this from a Link router to a smooth-scroll button */}
+              <button 
+                onClick={() => document.getElementById('magic-of-fostering')?.scrollIntoView({ behavior: 'smooth' })}
+                className="btn btn-outline btn-primary btn-lg hover:bg-primary/10 transition-all"
+              >
                 Why Foster?
-              </Link>
+              </button>
             </div>
           </div>
         </div>
       </div>
       
-      {/* Featured Section */}
-      <div className="mt-20">
+      {/* Featured Section (Added the id attribute right here) */}
+      <div id="magic-of-fostering" className="mt-20 scroll-mt-6">
         <h2 className="text-4xl font-bold text-center mb-12 text-base-content">The Magic of Fostering</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
