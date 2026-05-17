@@ -37,6 +37,7 @@ const Resources: React.FC = () => {
                 <span className="text-4xl mb-2 group-hover:scale-110 transition-transform">▶️</span>
                 <h3 className="font-bold text-lg mb-1">Webinars</h3>
                 <p className="text-sm">A series of webinars with detailed care for each kitten age group and more.".</p>
+              </a>
               </div>
             </div>
           </div>
