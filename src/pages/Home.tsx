@@ -83,7 +83,7 @@ const Home: React.FC = () => {
            </div>
 
            <div className="flex-1">
-             <img src="https://loremflickr.com/800/600/kittens?lock=101" alt="Two foster kittens playing" className="rounded-2xl shadow-xl w-full object-cover h-80 transform hover:-rotate-2 transition-transform duration-500" />
+             <img src='/images/cute.png' alt="Two foster kittens playing" className="rounded-2xl shadow-xl w-full object-cover h-80 transform hover:-rotate-2 transition-transform duration-500" />
            </div>
         </div>
       </div>
