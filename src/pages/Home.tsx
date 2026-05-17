@@ -18,9 +18,8 @@ const Home: React.FC = () => {
               Adopt, Don't Shop.
             </h1>
             <p className="mb-8 text-xl text-base-content/80 font-medium">
-              Hi, I'm Amelia! Promoting the "Adopt, Don't Shop" movement is my biggest passion. 
-              Fostering is so important because it provides a safe, nurturing environment for kittens to properly socialize. It also frees up vital space in shelters for other animals and acts as the crucial bridge for vulnerable animals to find their fur-ever homes.
-            </p>
+              Hi, I’m Amelia! Promoting the “adopt not shop” movement is one of my biggest passions. 
+              Advocating is super important to spread awareness. One way you can help is to foster; this provides a temporary safe and nurturing environment for kittens to grow and be prepared for adoption. It also frees up vital space in shelters, saving the kittens’ lives because when shelters are full, kittens are euthanized. Fostering acts as a bridge for vulnerable animals to find their fur-ever homes.
             <div className="flex gap-4 justify-center">
               <Link to="/gallery" className="btn btn-primary btn-lg shadow-lg hover:shadow-primary/50 transition-all group overflow-hidden relative">
                 <span className="relative z-10">Foster Stories</span>
@@ -39,7 +38,7 @@ const Home: React.FC = () => {
         <h2 className="text-4xl font-bold text-center mb-12 text-base-content">The Magic of Fostering</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
-            { title: "Save A Life", desc: "Every time you foster, you free up critical space in a shelter for another animal in need.", icon: "❤️" },
+            { title: "Save A Life", desc: "Each kitten you foster frees up a space in overcrowded shelters saving them from being euthanized and allows another animal to enter the shelter.", icon: "❤️" },
             { title: "Incredible Growth", desc: "Watch a timid, scared kitten transform into a confident, loving companion.", icon: "🌱" },
             { title: "Pure Joy", desc: "The feeling of helping a rescued cat find their forever family is completely unmatched.", icon: "✨" }
           ].map((feature, i) => (
