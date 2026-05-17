@@ -19,7 +19,7 @@ const Home: React.FC = () => {
             </h1>
             <p className="mb-8 text-xl text-base-content/80 font-medium">
               Hi, I’m Amelia! Promoting the “adopt not shop” movement is one of my biggest passions. 
-              Advocating is super important to spread awareness. One way you can help is to foster; this provides a temporary safe and nurturing environment for kittens to grow and be prepared for adoption. It also frees up vital space in shelters, saving the kittens’ lives because when shelters are full, kittens are euthanized. Fostering acts as a bridge for vulnerable animals to find their fur-ever homes.
+              Advocating is super important to spread awareness. One way you can help is to foster; this provides a temporary safe and nurturing environment for kittens to grow and be prepared for adoption. It also frees up vital space in shelters, saving the kittens’ lives because when shelters are full, kittens are euthanized. Fostering acts as a bridge for vulnerable animals to find their fur-ever homes.</p>
             <div className="flex gap-4 justify-center">
               <Link to="/gallery" className="btn btn-primary btn-lg shadow-lg hover:shadow-primary/50 transition-all group overflow-hidden relative">
                 <span className="relative z-10">Foster Stories</span>
