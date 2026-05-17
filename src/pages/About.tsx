@@ -6,7 +6,7 @@ const About: React.FC = () => {
       <div className="card lg:card-side bg-base-100 shadow-2xl overflow-hidden border border-base-200">
         <figure className="lg:w-1/2 relative group">
           <img 
-            src="https://loremflickr.com/800/800/kitten?lock=10" 
+            src="amelia.JPG" 
             alt="Amelia looking at a cat" 
             className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-700" 
           />
