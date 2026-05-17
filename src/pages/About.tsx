@@ -23,7 +23,7 @@ const About: React.FC = () => {
             </p>
             
             <p className="text-base-content/80 leading-relaxed">
-              I started this web project to spread awareness about the importance of the <strong>"Adopt, Don't Shop"</strong> movement. 
+              I started this web project to spread awareness about the importance of the <strong>"adopt not shop"</strong> movement. 
               As a full-time teenager, I understand how hard it is wanting to help but not being allowed to foster kittens yourself!
               But that hasn't stopped me from getting involved. Instead of fostering, I dedicate my free time to donating to local shelters, advocating on social media, and building resources like this site to help educate others who <em>can</em> foster!
             </p>
