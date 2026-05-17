@@ -59,4 +59,4 @@ const About: React.FC = () => {
 };
 
 export default About;
-import ameliaPhoto from '../../images/amelia.JPG';
+import ameliaPhoto from '../../amelia.JPG';
